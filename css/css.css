@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #f8ffff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+/*header*/
+
+header {
+    height: 700px;
+    background-color: #4c4c4c;
+    width: 100%%;
+    margin: auto;
+}
+
+h3 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    padding: 14px 16px;
+    font-weight: bold;
+    display: inline;
+}
+
+
+/*
+
+li:hover {
+  background-color: blue;
+}
+*/
+
+.banner {
+    top: 350px;
+    position: absolute;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+
+/*container*/
+
+.border {
+    width: 88%;
+    height: 400px;
+    top: 12%;
+    left: 6%;
+    position: absolute;
+    /*border: 1px solid black;*/
+    /*border-collapse: collapse;*/
+}
+
+.col {
+    width: 50%;
+    height: 400px;
+    /*background-color: blue;*/
+    float: left;
+    line-height: 35px;
+}
+
+.profile-info .title {
+    color: #333;
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+
+/*PROFESSIONAL SKILLS*/
+
+.colo {
+    width: 29%;
+    height: 100px;
+    margin: 2%;
+    text-align: center;
+    float: left;
+}
+
+
+/*EDUCATIONAL QUALIFICATION*/
+
+.student {
+    /*border: 1px solid black;
+  border-collapse: collapse;*/
+    width: 39.8%;
+    height: 140px;
+    margin: 5%;
+    float: left;
+    position: relative;
+    letter-spacing: 4px;
+}
+
+.smker {
+    width: 49%;
+    float: left;
+}
+
+
+/*footer*/
+
+footer {
+    height: 310px;
+    background-color: #4c4c4c;
+    /*max-width: 80%;*/
+    margin: auto;
+    clear: both;
+}
+
+.loby {
+    background-color: #4c4c4c;
+    max-width: 80%;
+    height: 290px;
+    margin: auto;
+}
+
+footer h1 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.call {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#satu {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-color: #617661;
+    position: relative;
+}
+
+#dua {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-color: #3d433d;
+    position: relative;
+}
+
+#tiga {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-color: #394f39;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*Respownsife*/
+
+@media screen and (max-width: 1080px) {
+    header {
+        background-color: red;
+        width: 100%;
+    }
+    /**/
+    #satu {
+        width: 100%;
+        height: 900px;
+        margin: auto;
+        background-color: #617661;
+        position: relative;
+    }
+    .border {
+        width: 90%;
+        top: 5%;
+        left: 5%;
+        position: absolute;
+    }
+    .col {
+        width: 100%;
+        height: 400px;
+        float: left;
+        line-height: 35px;
+    }
+    .col h1 {
+        margin-top: 40px;
+    }
+    .profile-info .title {
+        color: #333;
+        float: left;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 120px;
+    }
+    /**/
+    h4 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    #dua {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        background-color: #3d433d;
+        position: relative;
+    }
+    .colo {
+        width: 46%;
+        height: 150px;
+        text-align: center;
+    }
+    /**/
+    #tiga {
+        width: 100%;
+        height: 1000px;
+        margin: auto;
+        background-color: #394f39;
+        position: relative;
+    }
+    .student {
+        width: 90%;
+        height: 230px;
+        margin: auto 30px;
+        position: relative;
+    }
+    .smker {
+        width: 40%;
+        float: left;
+    }
+    /**/
+    footer {
+        height: 590px;
+        background-color: #4c4c4c;
+        margin: auto;
+        clear: both;
+    }
+    .loby {
+        background-color: #4c4c4c;
+        max-width: 80%;
+        height: 570px;
+        margin: auto;
+    }
+    footer h1 {
+        color: grey;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .call {
+        width: 50%;
+        margin: 20px auto;
+        float: left;
+        text-align: center;
+    }
+}
+
+
+/*min-width: 768px*/
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: yellow;
+        width: 100%;
+    }
+    /**/
+    #dua {
+        width: 100%;
+        height: 550px;
+        margin: auto;
+        background-color: #3d433d;
+        position: relative;
+    }
+    .colo {
+        width: 100%;
+        height: 150px;
+        text-align: center;
+    }
+    /**/
+    footer {
+        height: 1120px;
+        background-color: #4c4c4c;
+        margin: auto;
+        clear: both;
+    }
+    .loby {
+        background-color: #4c4c4c;
+        max-width: 80%;
+        height: 1100px;
+        margin: auto;
+    }
+    footer h1 {
+        color: grey;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .call {
+        width: 100%;
+        margin: 20px auto;
+        float: left;
+        text-align: center;
+    }
+}
